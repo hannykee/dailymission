@@ -13,6 +13,7 @@ for i in list2 :
 min = max #가장 작은 값
 # 마찬가지로 min과 비교하여 더 작은 값 찾아내는데,
 # - 일지 양수일지 비교 범위를 설정하기 번거로워 max를 기준으로 비교하겠다.
+## 아니면 list2[0]=min 해놓고 시작해도 좋다.
 
 for i in list2 :
     if i<min:
