@@ -7,10 +7,8 @@ alphabet = []   #<주의!!!> 빈 리스트 만들기는 [] , 빈 문자열 변�
 
 for i in str0:
     for j in range(0,len(alphabet)):
-        if i != alphabet(j):
+        if i!=alphabet[j]:
             alphabet.append(i)
-        else:
-            break
 
 
 print("입력한 알파벳 : ",alphabet)
