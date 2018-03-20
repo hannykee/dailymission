@@ -9,7 +9,7 @@ for i in str0:
 	for j in dicuser.keys():    #딕셔너리 키 값에 접근하는 방식 주의!
 		if i!=j:
 			dicuser[j]=1
-		ifelse i==j: 
+		if i==j: 
 			dicuser[j]+=1 ##사용 방식 주의! +=대입 연산자 사용했네~ 반대로도 해보기.
 
 print(dicuser)
