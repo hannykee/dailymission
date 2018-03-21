@@ -18,4 +18,9 @@ for i in range(0,len(numlist)):
             numlist[j] = orderchange
             #순서를 바꿀 뿐 변수를 없애지 않는 방법!! 매우 중요!!
 print(numlist)
-#중첩문에서 구조 내 반복 순서 중요!!
+#중첩문에서 구조 내 반복 순서 중요!! 여기에서 i가 먼저 돌아가는구나?!
+
+#13
+40
+
+40 13 1 30 14
