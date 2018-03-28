@@ -6,19 +6,10 @@
 #strange_sort함수를 완성해 보세요
 
 a=str(input("원하는 문자열을 나열하여 입력하세요."))
-
-#공백제거(함수 뭐지ㅠㅠ 깜빡했다)
-for i in range(0,len(str)):
-	if a[i]==" ":
-		a[i]=""
-#쉼표로 분리 리스트만들기
-
+a=a.replace(" ","")
 strings=a.split(",")  #split은 list로 반환
-	
-def strange_sort (strings,n):
-	result=strings.sort(strings[n])
-	print(result)
 
-
-strange_sort(strings,0)
-strange_sort(strings,1)
+def strange_sort() :
+        n=int(input("원하는 인덱스를 설정하세요."))
+        result=strings.sort(key=strings[n])
+        print(result)
