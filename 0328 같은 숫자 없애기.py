@@ -9,15 +9,16 @@ s가 '133303'이라면 ['1', '3', '0', '3']를 리턴
 s가 '47330'이라면 [4, 7, 3, 0]을 리턴
 '''
 
+def no_continuos(s):
+    re=[]
+    for i in range(0,len(s)):
+        if s[i] not in re:
+            re.append(s[i])
+    print(re)
+
+
 s = input("원하는 숫자(문장)를 입력하세요.")
-re=[]
-for i in range(0,len(s)):
-    if s[i] not in re:
-        re.append(s[i])
-print(re)
-
-
-
+no_continuos(s)
 '''오답
 for i in s:
     for j in re:
