@@ -7,3 +7,4 @@ day=a[6:8]
 weather=a[8:]
 
 print("오늘은 %s,%s,%s,%s 입니다" %(year,month,day,weather))
+#포매팅 문자열은 s 정수형은 d 실수는 f    %만 표현할 때는 %%
