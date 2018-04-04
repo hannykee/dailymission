@@ -7,8 +7,8 @@
 
 
 def strange_sort(strings,n) :
-        
-        strings.sort(key=str.lower)
+        num=strings[n]
+        strings.sort(key=num.lower)
         print(strings)
         return strings
 
