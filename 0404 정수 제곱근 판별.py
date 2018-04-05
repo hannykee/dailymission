@@ -6,10 +6,11 @@ n이 임의의 정수 x의 제곱이 아니라면 'no'을 리턴하는 함수를
 예를들어 n이 121이라면 이는 정수 11의 제곱이므로
 (11+1)의 제곱인 144를 리턴하고, 3이라면 'no'을 리턴하면 됩니다.'''
 
-def nextSqaure(n):
-    for i in range(0,10):
-        if n%(i*)=0:
-            return (x+1)**
+def nextSquare(n):
+    for i in range(1,10):
+        if n % (i**2)==0:
+            return (n+1)**2
+            break
         else:
             return 'no'
 
@@ -18,3 +19,5 @@ def nextSqaure(n):
 
 
 n= int(input("정수를 입력하세요."))
+
+print("x의 제곱근: ",nextSquare(n))
