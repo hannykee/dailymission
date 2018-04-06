@@ -13,9 +13,12 @@
 #매우 중요한 함수 : items()는 key와 value 쌍을 튜플로 묶은 값을 돌려준다.
 def sort_dictionary(dic):
     dic2=list(dic.items())
-    dic2.sort()
+    dic2.sort() #기본이 키 값으로 정렬되도록함.
     print(dic2)
     return dic2
 
 dic={"철수":78,"하나":97,"진원":88}
+'''
+dic={90:78,80:97,99:88}
+'''
 sort_dictionary(dic)
