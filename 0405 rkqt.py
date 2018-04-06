@@ -10,14 +10,12 @@
 
 다음 sort_dictionary 함수를 완성해 보세요.'''
 
-
+#매우 중요한 함수 : items()는 key와 value 쌍을 튜플로 묶은 값을 돌려준다.
 def sort_dictionary(dic):
-    tup1=(dic[0].key,d)
-    tup2=(dic[2],dic[3])
-    tup3=(dic[4],dic[5])#수정해야함.
-    dic2=[tup1,tup2,tup3]
-    dic2.sort(key=lamda)
+    dic2=list(dic.items())
+    dic2.sort()
+    print(dic2)
     return dic2
 
-dic={"김철수":78,"이하나":97,"정진원":88}
-print(sort_dictionary(dic))
+dic={"철수":78,"하나":97,"진원":88}
+sort_dictionary(dic)
