@@ -8,6 +8,8 @@
 
 def noOvertime(n,works):
     result=0
+    works=map(int,works)
+    print(type(works))
     for i in range(0,n):
         loc=works.index(max(works))
         works[loc]=int(works[loc])-1
